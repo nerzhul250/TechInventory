@@ -18,6 +18,14 @@
     },
     {
       "method": "GET",
+      "path": "/sales/most-sold-product",
+      "handler": "sales.mostSoldProduct",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/sales/:id",
       "handler": "sales.findOne",
       "config": {
@@ -28,6 +36,14 @@
       "method": "POST",
       "path": "/sales",
       "handler": "sales.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sales/sell-product",
+      "handler": "sales.sellProduct",
       "config": {
         "policies": []
       }

@@ -14,7 +14,7 @@
   "attributes": {
     "product": {
       "model": "product",
-      "via": "sale"
+      "via": "sales"
     },
     "quantity": {
       "type": "integer"

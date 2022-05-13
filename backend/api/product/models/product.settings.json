@@ -26,13 +26,13 @@
     "stock": {
       "type": "integer"
     },
-    "sale": {
-      "via": "product",
-      "model": "sales"
-    },
     "category": {
       "via": "products",
       "model": "category"
+    },
+    "sales": {
+      "via": "product",
+      "collection": "sales"
     }
   }
 }
