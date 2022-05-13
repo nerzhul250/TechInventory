@@ -1,0 +1,40 @@
+{
+  "global": {
+    "siteName": "Spartan hill tech inventory",
+    "defaultSeo": {
+      "metaTitle": "Page",
+      "metaDescription": "Tech inventory",
+      "shareImage": null
+    },
+    "favicon": null,
+    "placeHolder": null
+  },
+  "categories": [
+    {
+      "name": "Computer parts",
+      "description": "Computer components"
+    }
+  ],
+  "products": [
+    {
+      "name": "GTX 1080",
+      "description": "Graphics card, lhr, ultra fast",
+      "price": 499,
+      "referenceCode": "fd46sd5",
+      "stock": 45,
+      "category": {
+        "name": "Computer parts"
+      }
+    },
+    {
+      "name": "Intel core i7",
+      "description": "Latest CPU processor",
+      "price": 1000,
+      "referenceCode": "hj489fd",
+      "stock": 1,
+      "category": {
+        "name": "Computer parts"
+      }
+    }
+  ]
+}
