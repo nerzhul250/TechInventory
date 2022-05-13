@@ -23,3 +23,7 @@ http://localhost:1337/products/most-stock
 
 3. Test endpoint to get the most sold product:
 http://localhost:1337/sales/most-sold-product
+
+## Special thanks to:
+
+https://strapi.io/starters/strapi-starter-gatsby-catalog
